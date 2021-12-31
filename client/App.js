@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       // properties allow you to ref a specific div in your CSS file
-      <div className='App'>
-        Treat-Yo-Self
+      <div id='App'>
+        <header className='mainHeader'>Treat-Yo-Self</header>
         <TaskList />
       </div>
     );

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    font-family: 'Poppins', san-serif;
+}
+.App {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainHeader {
+    font-size: x-large;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px; 
+    color: ghostwhite;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.taskList {
+    max-width: 500vw;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300vh;
+    border: 3px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.openTaskItem {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid rgb(14, 41, 128);
+    padding: 30px;
+    border-radius: 5px;
+}

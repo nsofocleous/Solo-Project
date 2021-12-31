@@ -10,7 +10,7 @@ module.exports = {
   // Depending on mode Webpack will apply different things
   // on the final bundle. For now, we don't need production's JavaScript 
   // minifying and other things, so let's set mode to development
-  mode: 'development',
+  mode: process.env.NODE_ENV, //'development',
   
   // Path to your entry point. From this file Webpack will begin its work
   // to look up 
@@ -28,7 +28,7 @@ module.exports = {
   devServer: {
     publicPath: '/', //'/build/bundle.js',
     proxy: {
-      '/api': 'http://localhost:8080',
+      '/api': 'http://localhost:3000',
     },
     hot: true,
   },
